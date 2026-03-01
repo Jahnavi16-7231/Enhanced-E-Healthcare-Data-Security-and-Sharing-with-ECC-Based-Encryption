@@ -1,4 +1,4 @@
-Enhanced E-Healthcare Data Security and Sharing
+Title:Enhanced E-Healthcare Data Security and Sharing with ECC-Based Encryption
 
 A secure and patient-centric e-healthcare data management system that protects sensitive medical data using hybrid cryptography and consent-based access control.
 Overview
@@ -31,6 +31,7 @@ The system uses a hybrid cryptographic model where patient medical records are e
 
 Getting Started
 bash# Clone the repository
+
 git clone https://github.com/yourusername/securecare.git
 
 # Navigate to project directory
