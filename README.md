@@ -22,7 +22,11 @@ Cryptography: AES (symmetric), ECC (asymmetric), Hybrid encryption model
 
 Security Architecture
 The system uses a hybrid cryptographic model where patient medical records are encrypted using AES, and the AES encryption keys are further secured using ECC public keys. Decryption happens in-memory only, ensuring no plaintext data is ever stored on the server.
+
+
 <img width="588" height="345" alt="image" src="https://github.com/user-attachments/assets/c68a281e-50f3-4c7f-84a4-775c3b2d0045" />
+
+
 
 
 Getting Started
