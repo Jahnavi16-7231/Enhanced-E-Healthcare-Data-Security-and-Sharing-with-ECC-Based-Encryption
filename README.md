@@ -1,4 +1,4 @@
-Title:Enhanced E-Healthcare Data Security and Sharing with ECC-Based Encryption
+Enhanced E-Healthcare Data Security and Sharing with ECC-Based Encryption
 
 A secure and patient-centric e-healthcare data management system that protects sensitive medical data using hybrid cryptography and consent-based access control.
 Overview
@@ -6,12 +6,19 @@ SecureCare addresses the critical security challenges in modern healthcare by co
 Features
 
 🔐 AES Encryption — Medical records encrypted at rest using Advanced Encryption Standard
+
 🔑 ECC Key Management — AES keys secured using Elliptic Curve Cryptography
+
 ✅ Consent-Based Access Control — Patients grant temporary, revocable access to doctors
+
 🛡️ Attribute-Based Access Control (ABAC) — Fine-grained authorization based on role, consent status, and context
+
 📋 Secure Prescription Management — Doctors can issue prescriptions; patients can view but not modify
+
 📜 Tamper-Evident Audit Logging — All actions logged with cryptographic hash chaining
+
 🚨 Anomaly Detection — Rule-based and ML-based detection of suspicious access patterns
+
 🆘 Emergency Break-Glass Access — Time-limited emergency access with full logging and patient notification
 
 Tech Stack
@@ -42,5 +49,7 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
+
+
 Research Paper
 This system is based on the research paper "Secure Care: A Patient-Centric E-Healthcare Data Management System Using Hybrid Cryptography and Consent-Based Access Control".
